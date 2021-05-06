@@ -102,7 +102,7 @@ h4 {
   background-color: whitesmoke;
   border-radius: 10px;
   padding-bottom: 7px;
-  display: inline-block;
+  float: right;
 }
 /* For the main banner */
 .banner {
@@ -124,7 +124,7 @@ hr {
 }
 /* Main content */
 .mainc {
-  display: inline-block;
+  float: left;
   text-indent: 45px;
   text-align: left;
   background-color: whitesmoke;
