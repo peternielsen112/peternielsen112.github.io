@@ -177,6 +177,7 @@ h4 {
   padding-bottom: 7px;
   float: right;
   margin-top: 1%;
+  margin-bottom: 1%;
 }
 /* For the main banner */
 .banner {
@@ -193,6 +194,7 @@ h4 {
 }
 /* Line breaks */
 hr {
+  margin-top: 0.5%;
   float: center;
   width: 500px;
 }
@@ -210,6 +212,7 @@ hr {
   padding-bottom: 7px;
   width: 64%;
   margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 /* Left aligned text */
