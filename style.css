@@ -45,8 +45,8 @@
     font-family: inherit;
     margin: 0;
 }
-  
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+/*removed .dropbtn:focused*/
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #4693cf;
     -webkit-transition: background-color 500ms linear;
     -ms-transition: background-color 500ms linear;
@@ -99,7 +99,7 @@
     margin: 0;
 }
   
-.navbar a:hover, .dropdown2:hover .dropbtn2, .dropbtn2:focus {
+.navbar a:hover, .dropdown2:hover .dropbtn2 {
     background-color: #4693cf;
     -webkit-transition: background-color 500ms linear;
     -ms-transition: background-color 500ms linear;
