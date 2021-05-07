@@ -48,6 +48,9 @@
   
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
     background-color: #4693cf;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
 }
   
 .dropdown-content {
@@ -98,6 +101,9 @@
   
 .navbar a:hover, .dropdown2:hover .dropbtn2, .dropbtn2:focus {
     background-color: #4693cf;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
 }
   
 .dropdown-content2 {
