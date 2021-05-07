@@ -170,6 +170,7 @@ h4 {
   border-radius: 10px;
   padding-bottom: 7px;
   float: right;
+  margin-top: 1%;
 }
 /* For the main banner */
 .banner {
@@ -233,5 +234,12 @@ hr {
   color: forestgreen;
 }
 .chapc {
+  text-indent: 0%;
+}
+
+/* Lists */
+lh {
+  text-align: left;
+  font-weight: bold;
   text-indent: 0%;
 }
