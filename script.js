@@ -42,7 +42,19 @@ window.onclick = function(e) {
     }
 };
 
-
+function myFunction4() {
+    document.getElementById("myDropdown4").classList.toggle("show4");
+};
+  
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn4')) {
+        var myDropdown = document.getElementById("myDropdown4");
+        if (myDropdown.classList.contains('show4')) {
+            myDropdown.classList.remove('show4');
+        }
+    }
+};
 
 
 var strings = ['Did you know that spacing in HTML files is merely aesthetic?', '"Don\'t ever apologize for being the smartest one in the room." - Quentin Beck', 'Gravity Falls is the best TV show, in my opinion.', 'Python can compute square roots AND scientific notation.', 'HTML is just a markup language.', 'American Pie by Don McLean is a eulogy for Buddy Holly, Ritchie Valens, and the death of music as we know it.', 'No, these aren\'t splashes. Shut up.', '<i><strong>E</strong></i>', '<a class=\'rick\' href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">This is <em>not</em> a rickroll.</a>','Calming level: Bob Ross ≥ Jack Johnson ≥ Sal Khan', 'SOS did not originate from “Save Our Ship” - it was just an easy thing to type in Morse Code and was used for the universal “help” signal. (Its translation is . . .- - -. . .)','Bootstrap can be helpful, but it’s really picky and tough to work with.','Sassy CSS (.scss) is used for putting variables in a CSS stylesheet, compiling with those variables, and making your life easy.','“Two things are infinite: the universe and human stupidity; and I’m not sure about the universe.” - Thomas Edison'];
@@ -72,6 +84,7 @@ var featured = featuredsend();
 var navbar = `
     <div class="navbar">
       <a href="./index.html">Home</a>
+      <a href="./programming.html>Programming</a>
       <a href="./writing.html">Creative Writing</a>
       <a href='academicwriting.html'>Academic Writing</a>
       <div class="dropdown">
@@ -100,6 +113,14 @@ var navbar = `
         </button>
         <div class="dropdown-content3" id="myDropdown3">
           <a href="./wyuuprebellion.html"><em>Chronicles of Wyuup: Rebellion</em></a>
+        </div>
+      </div>
+      <div class="dropdown4">
+        <button class="dropbtn4" onclick="myFunction4()">
+          Projects &#9660;
+        </button>
+        <div class="dropdown-content4" id="myDropdown4">
+          <a href="">Hope for the Galaxy</a>
         </div>
       </div>
     </div>
