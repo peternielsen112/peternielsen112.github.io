@@ -84,7 +84,7 @@ var featured = featuredsend();
 var navbar = `
     <div class="navbar">
       <a href="./index.html">Home</a>
-      <a href="./programming.html>Programming</a>
+      <a href="./programming.html">Programming</a>
       <a href="./writing.html">Creative Writing</a>
       <a href='academicwriting.html'>Academic Writing</a>
       <div class="dropdown">
@@ -120,7 +120,8 @@ var navbar = `
           Projects &#9660;
         </button>
         <div class="dropdown-content4" id="myDropdown4">
-          <a href="">Hope for the Galaxy</a>
+          <a href="https://github.com/peternielsen112/hopeforthegalaxy">Hope for the Galaxy</a>
+          <a href="https://github.com/peternielsen112/periodictableindex">Periodic Table Index</a>
         </div>
       </div>
     </div>
