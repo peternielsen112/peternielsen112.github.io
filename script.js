@@ -1,3 +1,14 @@
+function shrinkFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+
+
+
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
@@ -82,7 +93,8 @@ function featuredsend() {
 var featured = featuredsend();
 
 var navbar = `
-    <div class="navbar">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="navbar" id="myTopnav">
       <a href="./index.html">Home</a>
       <a href="./programming.html">Programming</a>
       <a href="./writing.html">Creative Writing</a>
@@ -124,6 +136,9 @@ var navbar = `
           <a href="https://github.com/peternielsen112/periodictableindex">Periodic Table Index</a>
         </div>
       </div>
+      <a href="javascript:void(0);" class="icon" onclick="shrinkFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
 `;
 
