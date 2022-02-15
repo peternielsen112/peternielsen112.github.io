@@ -143,7 +143,7 @@ var navbar = `
 
 var series = `
     <aside class='side1'>
-      <h3>Get Started on a Series</h3>
+      <h3>Get Started on Something</h3>
       <h4><a class="chapter" href="tsof.html"><em>The Swords of Fate</em></a></h4>
       <p>The evil sorcerer Quatremaine is arising in the West after a defeat many years ago - and the Overking will do nothing to stop him. Kallwyn Jameson, a blacksmith from the Western Dunes, must band together with a motley crew of vagabonds and soldiers to stop Quatremaine - and his loyal, unthinking army of Fire-Kin - from taking over the world.</p>
       <h4><a class="chapter" href="wyuuprebellion.html"><em>Chronicles of Wyuup: Rebellion</em></a></h4>
