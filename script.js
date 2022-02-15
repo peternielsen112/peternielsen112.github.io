@@ -70,7 +70,7 @@ window.onclick = function(e) {
 
 var strings = ['Did you know that spacing in HTML files is merely aesthetic?', '"Don\'t ever apologize for being the smartest one in the room." - Quentin Beck', 'Gravity Falls is the best TV show, in my opinion.', 'Python can compute square roots AND scientific notation.', 'HTML is just a markup language.', 'American Pie by Don McLean is a eulogy for Buddy Holly, Ritchie Valens, and the death of music as we know it.', 'No, these aren\'t splashes. Shut up.', '<i><strong>E</strong></i>', '<a class=\'rick\' href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">This is <em>not</em> a rickroll.</a>','Calming level: Bob Ross ≥ Jack Johnson ≥ Sal Khan', 'SOS did not originate from “Save Our Ship” - it was just an easy thing to type in Morse Code and was used for the universal “help” signal. (Its translation is . . .- - -. . .)','Bootstrap can be helpful, but it’s really picky and tough to work with.','Sassy CSS (.scss) is used for putting variables in a CSS stylesheet, compiling with those variables, and making your life easy.','“Two things are infinite: the universe and human stupidity; and I’m not sure about the universe.” - Thomas Edison'];
 
-var things = ['Author', 'Programmer', 'Insane', 'Coin Collector', 'Nerd'];
+var things = ['Author', 'Programmer', 'Insane', 'Coin Collector', 'Nerd', 'Jack of Most Trades', 'Audiophile'];
 
 function thingssend() {
   var randomThing = things[Math.floor(Math.random()*things.length)];
@@ -96,9 +96,7 @@ var navbar = `
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="navbar" id="myTopnav">
       <a href="./index.html">Home</a>
-      <a href="./programming.html">Programming</a>
       <a href="./writing.html">Creative Writing</a>
-      <a href='academicwriting.html'>Academic Writing</a>
       <div class="dropdown">
         <button class="dropbtn" onclick="myFunction()">
           The Swords of Fate &#9660;
@@ -136,6 +134,7 @@ var navbar = `
           <a href="https://github.com/peternielsen112/periodictableindex">Periodic Table Index</a>
         </div>
       </div>
+      <a href="./programming.html">Programming</a>
       <a href="javascript:void(0);" class="icon" onclick="shrinkFunction()">
         <i class="fa fa-bars"></i>
       </a>
@@ -152,4 +151,10 @@ var series = `
       <h4><a class="chapter" href="cash21.html"><em>Cash Culasso and the 21 Prisms</em></a></h4>
       <p>Cash Culasso, interstellar treasure hunter and daredevil, finds himself in deeper than he'd expected when a mysterious client hires him to steal twenty-one mystical objects called Prisms.</p>
     </aside>
+`;
+
+var footer = `
+<div class=footer>
+  <p class=fp>Copyright (C) 2022 Peter Nielsen. Reproduction of material listed on this webpage or linked content is prohibited without written consent.</p>
+</div>
 `;
