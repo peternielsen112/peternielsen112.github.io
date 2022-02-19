@@ -418,3 +418,8 @@ lh {
 .fp {
   text-align: center;
 }
+
+.secret {
+  text-decoration: none;
+  color: #111212;
+}
