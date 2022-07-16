@@ -58,3 +58,8 @@ article {
 	text-color: white;
 	display: block;
 }
+
+img {
+	width: 50%;
+	align-content: center;
+}
